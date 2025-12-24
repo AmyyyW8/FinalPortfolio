@@ -206,3 +206,25 @@ b {
 .headLine {
     color: #234384;
 }
+#toggleButton {
+    border-radius: 15px;
+    background-color: #234384;
+    color: #b5bee8;
+    margin-left: 690px;
+}
+
+#toggleButton:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.content-box img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.content-box img.enlarged {
+  transform: scale(2); 
+  z-index: 100;
+  position: relative;
+}
